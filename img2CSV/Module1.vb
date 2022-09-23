@@ -160,7 +160,9 @@ Module Module1
         End Using
 
         WriteCsv(DestFilePath, arrPixelValueText)
-        Console.WriteLine("Done!")
+        Console.WriteLine("完了しました。")
+        Console.WriteLine("Enterキーを押すと終了します。")
+        Console.ReadLine()
 
     End Sub
 
